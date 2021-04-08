@@ -6,6 +6,8 @@ class GameOverScene : SKScene {
     let restartLabel = SKLabelNode(fontNamed:"Chalkduster")
     let instructionsLabel = SKLabelNode(fontNamed:"Chalkduster")
     let instructionsLabel2 = SKLabelNode(fontNamed:"Chalkduster")
+    let instructionsLabel3 = SKLabelNode(fontNamed:"Chalkduster")
+
     
     var score = 0
     
@@ -15,10 +17,18 @@ class GameOverScene : SKScene {
         instructionsLabel.position = CGPoint(x:self.frame.midX, y:self.frame.midY);
         self.addChild(instructionsLabel)
         
+        instructionsLabel3.text = "Highest score is: \(score)"
+        instructionsLabel3.fontSize = 55;
+        instructionsLabel3.position = CGPoint(x:self.frame.midX, y:self.frame.midY-50);
+        self.addChild(instructionsLabel3)
+
+        
         instructionsLabel2.text = "Your score was: \(score)"
         instructionsLabel2.fontSize = 55;
         instructionsLabel2.position = CGPoint(x:self.frame.midX, y:self.frame.midY-100);
         self.addChild(instructionsLabel2)
+        
+
         
         restartLabel.text = "Tap screen to restart"
         restartLabel.fontSize = 45;

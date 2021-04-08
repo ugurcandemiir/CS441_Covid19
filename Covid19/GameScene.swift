@@ -197,14 +197,18 @@ class GameScene: SKScene {
     
     var score = 0
     let scoreLabel = SKLabelNode(fontNamed:"Chalkduster")
+    var highScore = UserDefaults().integer(forKey: "HIGHSCORE")
     
     let playerYPos = 100.0
     
     func updateScoreLabel() {
         scoreLabel.text = "Score: \(score)"
+        if score < UserDefaults().integer(forKey: "HIGHSCORE") {
+            saveHighScore()
+        }
     }
     
-    var energy = 5
+    var energy = 3
     let energyLabel = SKLabelNode(fontNamed:"Lucida Grande")
     let energyMeter = SKLabelNode(fontNamed:"Lucida Grande")
     
@@ -230,6 +234,11 @@ class GameScene: SKScene {
         energyMeter.fontSize = 25;
         energyMeter.position = CGPoint(x: self.frame.width-250,y: 0)
         self.addChild(energyMeter)
+    }
+    
+    func saveHighScore() {
+        
+        UserDefaults.standard.set(score, forKey: "HIGHSCORE")
     }
 
 
