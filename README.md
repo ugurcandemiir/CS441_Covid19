@@ -31,7 +31,10 @@ https://youtu.be/0EcL56oQbF4
 
   
 # GIF
+Current Version designed for Iphones
+<img src="http://g.recordit.co/d0Di9zuNdN.gif" width=800 height= 600><br>
 
-https://youtu.be/0EcL56oQbF4
 
-<img src="https://gfycat.com/colorfuloblongbarnswallow" width=800 height= 600><br>
+
+Previous Version designed for IPads
+<img src="hhttp://g.recordit.co/VaCIQHWY4a.gif" width=800 height= 600><br>
