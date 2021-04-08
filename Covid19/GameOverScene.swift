@@ -18,8 +18,8 @@ class GameOverScene : SKScene {
         self.addChild(instructionsLabel)
         
         instructionsLabel3.text = "Highest score is: \(score)"
-        instructionsLabel3.fontSize = 55;
-        instructionsLabel3.position = CGPoint(x:self.frame.midX, y:self.frame.midY-50);
+        instructionsLabel3.fontSize = 60;
+        instructionsLabel3.position = CGPoint(x:self.frame.midX, y:self.frame.midY+250);
         self.addChild(instructionsLabel3)
 
         

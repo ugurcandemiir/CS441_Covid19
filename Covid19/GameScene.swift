@@ -229,7 +229,7 @@ class GameScene: SKScene {
         scoreLabel.position = CGPoint(x: 100,y: 0)
         self.addChild(scoreLabel)
         energyLabel.fontSize = 25;
-        energyLabel.position = CGPoint(x: self.frame.width-200,y: 0)
+        energyLabel.position = CGPoint(x: self.frame.width-200,y: 10)
         self.addChild(energyLabel)
         energyMeter.fontSize = 25;
         energyMeter.position = CGPoint(x: self.frame.width-250,y: 0)
