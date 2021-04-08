@@ -1,6 +1,6 @@
-# CS441_Covid Game
+# CS441_Covid Game Final Version
 
-IOS Version of Assignment 6 for CS441 - Binghamton University
+IOS Version of Assignment 7 for CS441 - Binghamton University
 
 Ugurcan Demir
 
@@ -19,13 +19,19 @@ A high score/leaderboard screen.  Keep track of scores across multiple starts of
 # The application idea : 
  
  
- Since I always designed other homework for the iPhone, I wanted it to be different this time, and I designed it for iPad. The reason for this is to learn layout dimensions and layout constraints.
- I wanted to write an arcade game about Covid 19, which is the problem of today. As a player, I put a vaccine icon and designed the incoming objects as microbes. Covid 19 vaccine is trying to kill incoming microbes. For now, I have only been able to apply the playground and microbes. The next step is to get the player to fire. In this way, he will kill the germs that come across and continue the game.
- I will also add a startup screen at the same time. Then, I will briefly tell the user how the game is played and start the game. Finally, I am thinking of making a leaderboard where the scores are kept.
+Since I always designed other homework for the iPhone, I wanted it to be different this time, and I designed it for iPad. The reason for this is to learn layout dimensions and layout constraints.
+Then as I mentioned in my last weekly report, I used to implement CMMotionmanager into my code. After a couple of tests on Simulator, I realized that it didn’t work and wasn’t getting expected from my Demo. I did some research on the Internet and found that the simulator does not simulate any motion. I have to use a physical device to test anything with CMMotionManager. I wish I have an iPad, but I don’t. That’s why I updated my code to work for iPhones.
+I wanted to write an arcade game about Covid 19, which is the problem of today. As a player, I put a vaccine icon and designed the incoming objects as microbes. Covid 19 vaccine is trying to kill incoming microbes. I also gave the user three numbers of lives. 
+I added a startup screen to explain my Game a little bit and start whenever a user is ready. Lastly, I implemented Game Over screen to show the highest score in the Game. In this screen, the user can also start again and try to get the highest score.
  
  
+# Youtube Link
+
+https://youtu.be/0EcL56oQbF4
 
   
 # GIF
 
-<img src="http://g.recordit.co/VaCIQHWY4a.gif" width=800 height= 600><br>
+https://youtu.be/0EcL56oQbF4
+
+<img src="https://gfycat.com/colorfuloblongbarnswallow" width=800 height= 600><br>
