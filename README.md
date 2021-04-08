@@ -32,7 +32,7 @@ https://youtu.be/0EcL56oQbF4
   
 # GIF
 Current Version designed for Iphones
-<img src="http://g.recordit.co/d0Di9zuNdN.gif" width=1500 ><br>
+<img src="http://g.recordit.co/d0Di9zuNdN.gif" width=150 ><br>
 
 
 
