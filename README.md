@@ -38,4 +38,5 @@ Current Version designed for Iphones
 
 
 Previous Version designed for IPads
-<img src="hhttp://g.recordit.co/VaCIQHWY4a.gif" width=800 height= 600><br>
+
+<img src="http://g.recordit.co/VaCIQHWY4a.gif" width=800 height= 600><br>
